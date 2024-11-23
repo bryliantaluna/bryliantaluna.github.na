@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buatcowo_aku</title>
+    <style>
+        /* CSS */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe4e6;
+            color: #5a5a5a;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            color: #ff80ab;
+            text-shadow: 2px 2px #ffb3c1;
+        }
+
+        p {
+            font-size: 1.5em;
+            line-height: 1.8;
+        }
+
+        button {
+            background-color: #ffb3c1;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 30px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff80ab;
+            transform: scale(1.1);
+        }
+
+        .heart {
+            font-size: 2em;
+            color: #ff6699;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.3);
+            }
+        }
+
+        #loveMessage {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #ff6699;
+        }
+    </style>
+</head>
+<body>
+    <h1>for u sayanggg❤</h1>
+    <p>
+        i'm so proud of u, <br>
+        sayang kalo kamu kadang ngerasa sendiri inget disini ada aku okeii?? <br>
+        i'm proud to be yours<3 <span class="heart">❤</span>
+    </p>
+    <button onclick="showLoveMessage()">klik sayanggg <3</button>
+    <div id="loveMessage"></div>
+
+    <script>
+        // JavaScript
+        function showLoveMessage() {
+            const message = document.getElementById('loveMessage');
+            message.innerHTML = "sayangkuu gantengkuuu. kaloo proses kamu ga semulus cowo lain diluar sanaa. its okaayy sayyangg sama sekali gaada masalaa, percaya semua bakal dibayar tuntas kalo kamuu ikhlas ngejalanin hidup kamuu sayangg,akuu support kamu sampaii berhasil pokonya TITIK!. akuu disini terus sama kamu yaa sayanggg.. gimana aja keadaan kamuu pokonyaa tetep jadiin aku tempat pulang kamuu YAAA!? IYYAA ENGGA IHH POKONYA IYYAA TITEKK. karnaa appaa yyaa.. karnaaa aku mau kamu selalu inget kaloo masi ada satu cewe yang selalu mauu dengerin keluh kesah kamuu kalo dunia lagi jahatt kekamoo nantii kitaa ajak berantem bareng ajja KALOO DUNIANYA JAHAT JAHATT tapii ndabole jahat jahat aaa HUFFTT!!! i love u moree gantengkuuu💖";
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ungu Pastel</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4e4f9; /* Ungu pastel */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            color: #6d477b;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: fadeIn 3s ease-in-out infinite alternate;
+        }
+
+        img, video {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover, video:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            color: #6d477b;
+            font-size: 1.2em;
+            margin-top: 20px;
+            animation: slideIn 2s ease-in-out infinite alternate;
+        }
+
+        audio {
+            display: none;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0.5;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-10px);
+            }
+            to {
+                transform: translateY(10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>foto kitaa sayangg gemass kan <br> aku baru taro satu foto sama vidio hihii nanti gampang aku tambahin kalo mauu bilang ajaa yyaa<3</h1>
+        <div>
+            <img src="c:\Users\Bryliant Calista\Downloads\luvv3.jpg" alt="Foto 1" onclick="showMessage('Foto 1 diklik!')">
+            <video controls onclick="showMessage('Video diklik!')">
+                <source src="c:\Users\Bryliant Calista\Downloads\luvv2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <p>kita itu gemesh kalo lagi baik' ajaa, makannya kita harus nikmatin setiap momennya 🌸</p>
+        <audio id="bgMusic" autoplay loop>
+            <source src="c:\Users\Bryliant Calista\Downloads\luvv2.mp4" type="audio/mp4">
+        </audio>
+    </div>
+
+    <script>
+        function showMessage(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
